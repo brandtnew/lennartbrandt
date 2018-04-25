@@ -32,7 +32,7 @@ const Section = props => <Flex flexWrap="wrap" px={[2, 0]} {...props} />;
 const Area = props => (
   <Flex
     flexWrap="wrap"
-    justifyContent={["center", "flex-start"]}
+    justifyContent={["flex-start"]}
     alignItems={"flex-start"}
     px={3}
     {...props}
@@ -44,29 +44,34 @@ export default withSiteData(() => (
     <Flex justifyContent={"center"}>
       <Container w={1} pt={"5rem"}>
         <Section w={1} style={{ background: "white" }}>
-          <Area w={[1, 7 / 12]}>
-            <Subtitle textAlign={["center", "left"]}>Subtitle</Subtitle>
+          <Area w={[1]}>
+            <Subtitle textAlign={["left"]}>Lennart Brandt</Subtitle>
             <Title
-              textAlign={["center", "left"]}
-              style={{ marginBottom: "2rem" }}
+              textAlign={["left"]}
+              style={{ marginBottom: "1rem", marginTop: "1rem" }}
             >
-              Learn To Love Growth And Change And You Will Be A Success
+              Digital Product Design meets Entrepreneurship
             </Title>
+            <Text textAlign={["left"]} style={{ marginBottom: "2rem" }}>
+              Hi! I'm Lennart, an enthusiastic product designer with a huge
+              passion for entrepreneurship. Currently, I'm working with{" "}
+              <TextLink to="https://elbstack.com">elbstack</TextLink> on
+              exploring new business models within the space of{" "}
+              <TextLink to="https://joinweburn.com">Fitness</TextLink> and
+              Blockchain. You can find my design work on{" "}
+              <TextLink to="https://dribbble.com/brandtnew">Dribbble</TextLink>,
+              follow me behind the scenes via{" "}
+              <TextLink to="https://instagram.com/brandtnew">
+                Instagram
+              </TextLink>{" "}
+              and explore my daily thoughts on{" "}
+              <TextLink to="https://twitter.com/brandtnewww">Twitter</TextLink>.
+            </Text>
             <a href="mailto:hellolennart@icloud.com">
               <Button>Get In Touch</Button>
             </a>
           </Area>
-          <Area w={[1, 5 / 12]} pt={["1.5rem", "3.5rem", "6rem"]}>
-            <Text textAlign={["center", "right"]}>
-              As we{" "}
-              <TextLink to="https://dribbble.com/brandtnew">grow</TextLink>, we
-              do so in fits and starts, lurching forward then back, sometimes
-              looking more like clowns than seekers. When things start shifting
-              in our world, we get uncomfortable; uncertain; unsure what to do
-              next.
-            </Text>
-          </Area>
-          <Area mt={["3.5rem", "5rem"]}>
+          <Area mt={"4rem"}>
             <Image src={titleImage} />
           </Area>
         </Section>
