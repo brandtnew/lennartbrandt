@@ -40,7 +40,7 @@ const Area = props => (
 );
 
 const onHandleClick = () => {
-  window.location.href = "mailto:hello@lennartbrandt.com";
+  window.location.href = "mailto:hellolennart@icloud.com";
 };
 
 export default withSiteData(() => (
