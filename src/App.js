@@ -9,6 +9,9 @@ injectGlobal`
     font-family: 'Montserrat', 'sans-serif';
     font-weight: 400;
     font-size: 16px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     margin: 0;
     padding: 0;
     align: 'center';

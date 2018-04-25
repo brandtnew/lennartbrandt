@@ -32,7 +32,7 @@ const Section = props => <Flex flexWrap="wrap" px={[2, 0]} {...props} />;
 const Area = props => (
   <Flex
     flexWrap="wrap"
-    justifyContent={["flex-start"]}
+    justifyContent={"flex-start"}
     alignItems={"flex-start"}
     px={3}
     {...props}
@@ -42,16 +42,15 @@ const Area = props => (
 export default withSiteData(() => (
   <ThemeProvider theme={theme}>
     <Flex justifyContent={"center"}>
-      <Container w={1} pt={"5rem"}>
+      <Container w={1} pt={"4rem"}>
         <Section w={1} style={{ background: "white" }}>
           <Area w={[1]}>
             <Subtitle textAlign={["left"]}>Lennart Brandt</Subtitle>
-            <Title
-              textAlign={["left"]}
-              style={{ marginBottom: "1rem", marginTop: "1rem" }}
-            >
-              Digital Product Design meets Entrepreneurship
-            </Title>
+          </Area>
+          <Area w={1} mt={"1rem"} mb={"1rem"}>
+            <Title textAlign={["left"]}>Design meets Entrepreneurship</Title>
+          </Area>
+          <Area w={1}>
             <Text textAlign={["left"]} style={{ marginBottom: "2rem" }}>
               Hi! I'm Lennart, an enthusiastic product designer with a huge
               passion for entrepreneurship. Currently, I'm working with{" "}

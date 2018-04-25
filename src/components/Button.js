@@ -15,9 +15,15 @@ const StyledButton = styled.button`
   text-align: center;
   outline: none;
 
-  :active {
+  :hover {
     color: #ffffff;
     background-color: #11213d;
+  }
+
+  :active {
+    color: #ffffff;
+    background-color: #0a64ff;
+    border: none;
   }
 `;
 

@@ -4,7 +4,7 @@ import { fontSize, textAlign } from "styled-system";
 import lineHeight from "../helper/lineHeight";
 
 const StyledText = styled.p`
-  font-family: "Lora", "serif";
+  font-family: "Lora";
   font-weight: 400;
   ${fontSize};
   ${lineHeight};

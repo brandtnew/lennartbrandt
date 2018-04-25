@@ -3,8 +3,8 @@ import styled from "styled-components";
 import { fontSize, lineHeight, textAlign } from "styled-system";
 
 const StyledSubtitle = styled.p`
-  font-family: "Montserrat", "sans-serif";
-  font-weight: 400;
+  font-family: "Montserrat";
+  font-weight: 600;
   ${fontSize};
   ${lineHeight};
   ${textAlign};

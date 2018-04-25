@@ -4,7 +4,7 @@ import { fontSize, textAlign } from "styled-system";
 import lineHeight from "../helper/lineHeight";
 
 const StyledTitle = styled.h1`
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat";
   font-weight: 600;
   ${fontSize};
   ${lineHeight};

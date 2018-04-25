@@ -11,7 +11,7 @@ if (typeof window !== "undefined") {
   var WebFont = require("webfontloader");
   WebFont.load({
     google: {
-      families: ["Montserrat:400,700", "Lora:400"]
+      families: ["Montserrat:400,600", "Lora:400"]
     }
   });
 }
