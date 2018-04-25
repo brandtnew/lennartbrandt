@@ -76,31 +76,39 @@ export default withSiteData(() => (
         </Section>
         <Section w={1} pt={[80, 120]} pb={[40]}>
           <Area
-            w={[1, 6 / 12, 8 / 12]}
-            justifyContent={["center", "flex-start"]}
-            order={[3, 1]}
+            w={[1, 1, 6 / 12]}
+            justifyContent={["center", "center", "flex-start"]}
+            order={[4, 4, 1]}
           >
             <Copyright>© 2018 Lennart Brandt</Copyright>
           </Area>
           <Area
-            w={[1, 3 / 12, 2 / 12]}
-            justifyContent={["center", "flex-end"]}
-            pb={[24, 0]}
-            order={[1, 2]}
+            w={[1, 1, 2 / 12]}
+            justifyContent={["center", "center", "flex-end"]}
+            pb={[24, 24, 0]}
+            order={[1, 1, 2]}
           >
             <ExternalLink to="https://twitter.com/brandtnewww">
               Twitter
             </ExternalLink>
           </Area>
           <Area
-            w={[1, 3 / 12, 2 / 12]}
-            justifyContent={["center", "flex-end"]}
-            pb={[24, 0]}
-            order={[2, 3]}
+            w={[1, 1, 2 / 12]}
+            justifyContent={["center", "center", "flex-end"]}
+            pb={[24, 24, 0]}
+            order={[2, 2, 3]}
           >
             <ExternalLink to="https://instagram.com/brandtnew">
               Instagram
             </ExternalLink>
+          </Area>
+          <Area
+            w={[1, 1, 2 / 12]}
+            justifyContent={["center", "center", "flex-end"]}
+            pb={[24, 24, 0]}
+            order={[3, 3, 4]}
+          >
+            <Link to="/imprint">Imprint</Link>
           </Area>
         </Section>
       </Container>
