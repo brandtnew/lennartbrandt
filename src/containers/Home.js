@@ -39,10 +39,6 @@ const Area = props => (
   />
 );
 
-const onHandleClick = () => {
-  window.location.href = "mailto:hellolennart@icloud.com";
-};
-
 export default withSiteData(() => (
   <ThemeProvider theme={theme}>
     <Flex justifyContent={"center"}>
@@ -56,7 +52,9 @@ export default withSiteData(() => (
             >
               Learn To Love Growth And Change And You Will Be A Success
             </Title>
-            <Button onClick={onHandleClick}>Get In Touch</Button>
+            <a href="mailto:hellolennart@icloud.com">
+              <Button>Get In Touch</Button>
+            </a>
           </Area>
           <Area w={[1, 5 / 12]} pt={["1.5rem", "3.5rem", "6rem"]}>
             <Text textAlign={["center", "right"]}>
