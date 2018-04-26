@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Flex, Box } from "grid-styled";
-import { withSiteData, Link } from "react-static";
+import { withSiteData } from "react-static";
 import { ThemeProvider } from "styled-components";
 import { maxWidth } from "styled-system";
 import theme from "../theme";
@@ -10,6 +10,7 @@ import Subtitle from "../components/Subtitle";
 import Copyright from "../components/Copyright";
 import Text from "../components/Text";
 import TextLink from "../components/TextLink";
+import InternalLink from "../components/InternalLink";
 import ExternalLink from "../components/ExternalLink";
 import Button from "../components/Button";
 import Image from "../components/Image";
@@ -108,7 +109,7 @@ export default withSiteData(() => (
             pb={[24, 24, 0]}
             order={[3, 3, 4]}
           >
-            <Link to="/imprint">Imprint</Link>
+            <InternalLink to="/imprint">Imprint</InternalLink>
           </Area>
         </Section>
       </Container>
